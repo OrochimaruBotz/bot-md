@@ -33,7 +33,7 @@ const defaultMenu = {
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
   after: `
-*%npmname@^%version*
+*yamato@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${ucapan()}, ${name}`.trim()
       const sections = [
       {
-        title: 'List Menu ' + namabot,
+        title: 'List Menu GojoBot',
         rows: [
           { title: 'Semua Perintah', rowId: `${_p + command} all` },
           { title: 'Game', rowId: `${_p + command} game` },
