@@ -35,7 +35,7 @@ handler.all = async function (m) {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "6288804947282-1625305606@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -51,7 +51,7 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"by : The.sad.boy01","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"by : Yamato","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
 	       global.fliveLoc2 = {
@@ -59,13 +59,13 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "title": "the.sad.boy01","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "title": "Yamato","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
             global.ftoko = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6282331033919@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6288804947282@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -74,7 +74,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./src/logo.jpg') //Gambarnye
 					},
-					"title": wm, //Kasih namalu 
+					"title": Yamato, //Kasih namalu 
 					"description": namabot, 
 					"currencyCode": "USD",
 					"priceAmount1000": "20000000",
@@ -108,7 +108,7 @@ key: {
 		"groupInviteMessage": {
 			"groupJid": "6282331033919-1625305606@g.us",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚕 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶜ ◉", 
+			"groupName": "GojoBot", 
             "caption": `╭─${kki}RULES BOT${kka}
 │
 ├❒ DILARANG TOXIC
@@ -132,7 +132,7 @@ key: {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "628804947282-1625305606@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
